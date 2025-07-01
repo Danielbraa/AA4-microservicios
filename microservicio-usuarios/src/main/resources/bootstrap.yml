@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservicio-usuarios # Asegúrate de que este nombre coincida con el nombre de tu archivo .yml en el repositorio Git (ej. microservicio-usuarios-dev.yml)
+  config: # <--- ¡Nueva sección para spring.config.import!
+    import: "optional:configserver:" # Importa la configuración desde el Config Server
+  cloud:
+    config:
+      uri: http://localhost:8888 # URL de tu Config Server
+      # profile: dev # O el perfil que estés usando, si lo tienes configurado en el Config Server
