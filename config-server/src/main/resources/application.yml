@@ -6,6 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ddaf45/config-repo-spring-cloud.git # ¡CAMBIA ESTA URL POR LA TUYA!
-          # username: tu_usuario_git
-          # password: tu_token_personal_de_acceso_git
+          uri: https://github.com/ddaf45/AA4-microservicios.git
