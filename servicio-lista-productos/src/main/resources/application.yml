@@ -2,5 +2,4 @@ spring:
   application:
     name: servicio-lista-productos
   config:
-    import: "configserver:http://localhost:8888"
-
+    import: "configserver:http://config-server:8898"
